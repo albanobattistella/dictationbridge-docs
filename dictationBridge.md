@@ -425,9 +425,10 @@ There are numerous ways you can help with development of DictationBridge:
 
 The DictationBridge project was made possible thanks to support from a community of users and organizations. If you have feedback regarding DictationBridge, or have suggestions to make it even better, please contact us using the below methods.
 
-* Email: (address to be provided)
+* Email: DictationBridge discussion list.
 * Website: http://www.dictationbridge.com
 * Social media links: @DictationBridge on Twitter
+* GitHub: https://github.com/dictationbridge
 
 ### The team behind DictationBridge
 
@@ -443,6 +444,6 @@ The DictationBridge project was made possible thanks to support from a community
 
 The DictationBridge project would like to thank the following individuals and organizations for sponsoring this project:
 
-* San Francisco Lighthouse for the Blind and Visually Impaired
+* Lighthouse for the Blind and Visually Impaired of San Francisco
 * Abdulaziz Alshmasi
 * Patrick Kelly
