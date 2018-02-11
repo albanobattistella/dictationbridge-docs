@@ -2,7 +2,7 @@
 
 ## Meet DictationBridge
 
-Welcome to DictationBridge, a screen reader extension that allows you to use your computer via dictation. With DictationBridge, a screen reader of your choice and a dictation software of your choice, you will discover how enjoyable it is to dictate emails, surf the web, keep in touch with friends, write professional documents in your job and other possibilities.
+Welcome to DictationBridge, a screen reader extension that allows you to use your computer  by talking to it. With DictationBridge, a screen reader of your choice and a speech-recognition  software of your choice, you will discover how enjoyable it is to dictate emails, surf the web, keep in touch with friends, write professional documents in your job and other possibilities.
 
 ### What is dictation?
 
@@ -10,11 +10,11 @@ Dictation allows you to "speak" to your computer. Simply put, dictation lets you
 
 So is dictation better than typing? It depends. There are people who prefer to type text on a keyboard, while some prefer to dictate via a microphone. One use case of dictation is if you need to rely on speaking to your computer because you cannot type well due to health issues.
 
-So what do you need to dictate text? First, you need a microphone (a built-in or an external microphone), and a program that can understand what you are saying and perform tasks (called dictation software or a speech recognition program). For blind and visually impaired people, an additional program to read screen content, called a screen reader is essential. But how can all these - microphone, dictation software, and your screen reader - come together to help you speak to your computer? This is where DictationBridge comes in.
+So what do you need to dictate text? First, you need a microphone (a built-in or an external microphone), and a program that can understand what you are saying. This program is called speech-recognition software because it determines what you have said and then tells the computer what to do. For blind and visually impaired people, an additional program to read screen content, called a screen reader is essential. But how can all these - microphone, dictation software, and your screen reader - come together to help you speak to your computer effectively? This is where DictationBridge comes in.
 
 ### What is DictationBridge?
 
-DictationBridge extends the capabilities of your screen reader by allowing it to read information from your dictation software. In some configurations, DictationBridge also allows you to command your screen reader using your Dictation software. Because DictationBridge is running as an add on, you won’t need to start a program each time you wish to use it. It will simply run in the background each time you launch your screen reader, and bridge the gap between your screen reader and dictation software.
+DictationBridge extends the capabilities of your screen reader by allowing it to read information from your dictation software. This means that as you speak to your computer, your computer will talk back to you in real-time. In some configurations, DictationBridge also allows you to command your screen reader using your Dictation software. Because DictationBridge is running as an add on, you won’t need to start a program each time you wish to use it. It will simply run in the background each time you launch your screen reader, and bridge the gap between your screen reader and dictation software.
 
 ### Feature highlights
 
@@ -36,11 +36,11 @@ Copyright and license notice: DictationBridge is copyright 2016-2018 Three Mouse
 
 ### We want to hear from you
 
-We at DictationBridge project believe that user feedback is essential when it comes to making the product better. If you have issues, or would like to suggest something for a future version of DictationBridge, you are more than welcome to send us feedback using methods outlined in contact information section at the end of this guide.
+We at the DictationBridge project believe that user feedback is essential when it comes to making the product better. If you have issues, or would like to suggest something for a future version of DictationBridge, you are more than welcome to send us feedback using methods outlined in contact information section at the end of this guide.
 
-Note: due to different terms used for screen reader extensions, this guide will refer to both NVDA add-on and JAWS scripts as "scripts".
+Note: due to the different terms used to refer to  screen reader extensions, this guide will refer to both NVDA add-ons and JAWS scripts as "scripts".
 
-The rest of this guide will explain how to get up and running with DictationBridge, how to use it, and some tips and tricks for maximizing the performance of the powerful software combination that is DictationBridge, your screen reader, and your Dictation software.
+The rest of this guide will explain how to get up and running with DictationBridge, how to use it, and some tips and tricks for maximizing the performance of the powerful software combination that is DictationBridge, your screen reader, and your Dictation solution.
 
 ## Install and get ready to dictate
 
@@ -49,10 +49,10 @@ Before you can dictate and perform commands with help from DictationBridge, you 
 ### What it takes to use DictationBridge
 
 * A computer running Windows 7, 8, 8.1 or 10, including server versions.
-* A microphone (built-in or external, including USB, Bluetooth and others).
+* A microphone (built-in or external, including USB, Bluetooth and others). An external microphone coupled with an external sound card is best for maximizing recognition accuracy.
 * A sound output device (such as speakers, wired or wireless headsets and so on).
-* A screen reader of your choice (at the time of this writing, DictationBridge supports NVDA 2016.3 and JAWS 17 or any later versions of these screen readers).
-* A dictation software (Windows Speech Recognition or a licensed version of Dragon version 15 or higher).
+* A screen reader of your choice (at the time of this writing, DictationBridge supports NVDA 2017.4 and JAWS 17 or any later versions of these screen readers).
+* A speech-recognition  solution  (Windows Speech Recognition or Dragon version 15 or higher).
 
 ### Installing screen readers
 
@@ -61,51 +61,51 @@ Before you can dictate and perform commands with help from DictationBridge, you 
 
 ### Installing DictationBridge
 
-To download latest version of DictationBridge, visit [DictationBridge website](http://www.dictationbridge.com) and select download link. Be sure to download the appropriate installer for your screen reader (JAWS or NVDA). After downloading the appropriate installer for your screen reader, follow the instructions for screen reader of your choice.
+To download the latest version of DictationBridge, visit the [DictationBridge website](http://www.dictationbridge.com) and select the download link. Be sure to download the appropriate installer for your screen reader (JAWS or NVDA). After downloading the appropriate installer for your screen reader, follow the installation instructions for the screen reader of your choice.
 
 For JAWS for Windows:
 
-1. Navigate to where you have saved DictationBridge installer (a setup program) and press ENTER on the installer.
-2. Choose the installer language and press ENTER on OK button.
-3. Once the introductory screen opens, press ENTER on Next button.
+1. Navigate to where you have saved the DictationBridge installer and press ENTER on the installer.
+2. Choose the installer language and press ENTER on the button titled "OK".
+3. Once the introductory screen opens, press ENTER on the Next button.
 4. Choose the installation method. You can choose between "full" (scripts and documentation and can be uninstalled from Programs and Features), "just scripts", and "custom". After making a choice, press ENTER on the Next button.
-5. Select the JAWS version and language you are using, then select where you'd like DictationBridge to be installed (current user or for all users). For JAWS version/language, check the version you want to use by checking the checkbox. After making your choice, press ENTER on Next button.
-6. You are now asked to select the folder where DictationBridge should be installed. You can accept the default or specify a different location by typing the path or browsing to a folder. Once you make a choice, press ENTER on Next button.
-7. Review the choices made so far during installation, then press ENTER on the Install button.
-8. After a few moments, the installation will complete, at which point you can press ENTER on Finish button. Be sure to restart JAWS.
+5. Select the JAWS version and language you are using, then select where you'd like DictationBridge to be installed (current user or for all users). For JAWS version/language, check the version you want to use by checking the relevant checkbox. After making your choice, press ENTER on the Next button.
+6. You are now asked to select the folder where DictationBridge should be installed. You can accept the default or specify a different location by typing the path or browsing to a folder. Once you make a choice, press ENTER on the Next button.
+7. Review the choices you have  made so far during the installation, then press ENTER on the Install button.
+8. After a few moments, the installation will complete, at which point you can press ENTER on the Finish button. Be sure to restart JAWS.
 
 For NvDA installed on your computer:
 
-1. Navigate to where you have saved DictationBridge installer (an NVDA add-on with a .nvda-addon extension) and press ENTER on the installer.
+1. Navigate to where you have saved the DictationBridge installer (an NVDA add-on with a .nvda-addon extension) and press ENTER on the installer.
 2. Say "yes" if NVDA asks if you would like to install the add-on.
 3. If you are upgrading from a prior version of DictationBridge, NVDA will ask if you would like to upgrade. Say "yes".
 4. After a few moments NVDA will ask you to restart. Select "yes" to restart NVDA.
 
 For a portable version of NVDA:
 
-1. Press NVDA+N to open  NVDA menu. By default, the NVDA key is the numpad or extended insert key.
+1. Press NVDA+N to open the NVDA menu. By default, the NVDA key is the numpad or extended insert key.
 2. Select Tools, then Manage Add-ons.
-3. From Add-ons Manager, select "install", then navigate to the location where you have saved the DictationBridge add-on file and press ENTER.
+3. From the Add-ons Manager, select "install", then navigate to the location where you have saved the DictationBridge add-on file and press ENTER.
 4. Say "yes" if NVDA asks if you would like to install the add-on,
 5. If upgrading from a prior version of the add-on, say "yes".
-6. After a few moments, you'll be returned to Add-ons Manager. Press Escape to close this window, then say "yes" if asked to restart NVDA.
+6. After a few moments, you'll be returned to the Add-ons Manager. Press Escape to close this window, then say "yes" if asked to restart NVDA.
 
 Once installed, a new menu item under NVDA menu/Tools will be added that is used to copy files needed to perform NVDA commands via Dragon.
 
-### Installing and enabling dictation software
+### Installing and enabling speech-recognition software
 
 DictationBridge supports Windows Speech Recognition and Dragon (formerly called Dragon Naturally Speaking).
 
 Follow these steps to enable Windows Speech Recognition (WSR):
 
-1. Press Windows key to \open Start menu (Start screen in Windows 8 and 8.1).
-2. Enter "speech recognition", and select "Windows Speech Recognition" and press ENTER. The setup window opens.
-3. Once in Setup Speech Recognition window, press ENTER on "Next" button.
+1. Press Windows key to \open the  Start menu (Start screen in Windows 8 and 8.1).
+2. Enter "speech recognition", and select "Windows Speech Recognition" from the dsearch results and press ENTER. The setup window opens.
+3. Once in the Setup Speech Recognition window, press ENTER on the "Next" button.
 4. Select the type of the microphone you will use and select "Next".
 5. After reviewing the instruction screen, select "next".
 6. If you speak English, dictate the following phrase: "Peter dictates to his computer. He prefers it to typing, and particularly prefers it to pen and paper." Note that you'll be asked to dictate a different phrase for languages other than English.
-7. If everything is okay, Setup window will present the completion screen where you can exit the setup process or continue with training.
-8. To control microphone status and perform other WSR management functions, press Windows+B to go to notification area (also known as system tray), select Speech Recognition entry, press Applications key and select the item you want.
+7. If everything is okay, the Setup window will present the completion screen where you can exit the setup process or continue with training.
+8. To control microphone status and perform other WSR management functions, press Windows+B to go to the notification area (also known as the system tray), select Speech Recognition entry, press Applications key and select the item you want.
 
 For Dragon:
 
@@ -113,18 +113,20 @@ For Dragon:
 2. Locate the downloader and press ENTER to begin the setup download.
 3. Once the download completes, you'll be greeted with a setup screen. Press ENTER on Next button. In case you are using programs such as Microsoft Outlook, you'll need to exit them before continuing.
 4. Review the license information and select "I accept" radio button and press ENTER on Next.
-5. Enter your user name, organization (optional), and enter the serial number and press ENTER on Next button.
+5. Enter your user name, organization (optional), and enter the serial number and press ENTER on the Next button.
+Note:
+You may not be able to copy and paste the serial number into the Dragon setup program. You will have to enter it manually. The serial number is a long string of characters separated by dashes. You will have to enter each set of characters into its own edit box.
 6. Select the region to be used for dictation and text-to-speech. If you speak English, choose the region you live in or "All English regions". Also, if you want to choose installation folder and other options, check "Advanced" checkbox. After making a selection, press ENTER on Next button.
-7. If you did not check "Advanced" checkbox, you're now asked to install Dragon, otherwise you are asked to select where Dragon should be installed. If so, choose the folder, then press ENTER on Next button, then press ENTER on Install button.
-8. After a few moments the completion screen will be displayed. Press ENTER on Finish button.
+7. If you did not check the  "Advanced" checkbox, you're now asked to install Dragon, otherwise you are asked to select where Dragon should be installed. If so, choose the folder, then press ENTER on Next button, then press ENTER on Install button.
+8. After a few moments the completion screen will be displayed. Press ENTER on the Finish button.
 
 ### Preparing DictationBridge and dictation software to work together
 
-Once the dictation software is installed, follow the below steps to let DictationBridge work with the dictation software.
+Once the speech-recognition software is installed, follow the below steps to let DictationBridge work with it.
 
-For Windows Speech recognition: For best experience, set Windows Speech Recognition to sleep rather then turn off when you say, "stop listening" or "go to sleep".
+For Windows Speech recognition: For the best experience, set Windows Speech Recognition to sleep rather then turn off when you say, "stop listening" or "go to sleep".
 
-For Dragon: Configure Dragon to display Dragon Bar icon on the system tray, enable MSAA menus and use of the word "click" for clicking and HTML elements, and to use spelling box if you need to correct a mistake. Also, it is recommended that you configure a profile. Follow steps in feature overview chapter for details.
+For Dragon: Configure Dragon to display the  Dragon Bar icon on the system tray, enable screen reader  menus and use of the word "click" for clicking and HTML elements, and to use the  spelling box if you need to correct a mistake. Also, it is recommended that you configure a profile. Follow steps in feature overview chapter for details.
 
 Congratulations! You are now ready to dictate to your computer using DictationBridge, your screen reader, and a dictation software. If you want to get going with it, be sure to read the quick start guide (the next section). If you want to learn more about some additional features, browse the "DictationBridge Overview" section later in this guide. If you need advanced functionality such as entering custom commands for Dragon, check out "Advanced Topics" section. Have questions about DictationBridge features discussed in this guide? Don't forget to check out "Frequently Asked Questions" section. Let's get going with dictation!
 
@@ -134,14 +136,14 @@ If you want to get a hands-on introduction to DictationBridge, or want a taste o
 
 ### Some tips regarding dictation
 
-* Think of dictation software as a friend. Just as you can know about your friend by talking, dictation software wil understand you better if you use it more.
+* Think of speech-recognition  software as a friend. Just as you can know about your friend by talking, speech-recognition  software wil understand you better if you use it more.
 * For improved accuracy, we recommend going through additional training sessions with the dictation software of your choosing.
 * Speak clearly.
 * If you are dictating text into documents, be sure to hear what the screen reader reads so you can catch mistakes and correct them.
 
 ### Listen to me
 
-To start dictating text or issuing commands via voice, you need to tell your dictation software to listen to you. This can be done by saying, "listen to me" or "start listening". If you want the dictation software to stop listening to you, you can say, "go to sleep" or "stop listening".
+To start dictating text or issuing commands via voice, you need to tell your speech-recognition  software to listen to you. This can be done by saying, "listen to me" or "start listening". If you want the dictation software to stop listening to you, you can say, "go to sleep" or "stop listening".
 
 ### start a program
 
@@ -149,15 +151,16 @@ To start a program, say, "start program". For example, to start Notepad, say, "s
 
 ### Dictating text
 
-If you want to dictate text, open a program such as Notepad and start dictating. For example, say, "start Notepad", then once Notepad opens, say, "Testing comma, one comma, two comma, three". The screen reader should say, "Testing, one, two, three".
+If you want to dictate text, open a program such as Notepad and start speaking what you want written. For example, say, "start Notepad", then once Notepad opens, say, "Testing comma, one comma, two comma, three". The screen reader should say, "Testing, one, two, three".
 
 #### Entering punctuation and starting new lines
 
-You may have noticed that the dictation text above includes the word "comma". This is necessary so you can enter punctuations such as commas, full stops, parentheses and so on. For example, if you want to insert a period (.), say, "full stop" or "period". When you want to start a new paragraph, say, "new line" or "new paragraph", and the appropriate paragraph marker will be inserted into the document.
+You may have noticed that the example  text above includes the word "comma". This is necessary so you can enter punctuations such as commas, full stops, parentheses and so on. For example, if you want to insert a period (.), say, "full stop" or "period". When you want to start a new paragraph, say, "new paragraph", and the appropriate paragraph marker will be inserted into the document.
+Note:
+The words that you say to insert punctuations into your document very by region. If you use British English, the you are more likely to use the word "full stop" to insert a period symbol. However, if you have US English set as a language, then you are more likely to say "period" to insert the period punctuation mark.
+### Correcting mis recognized text
 
-### Correct that
-
-Sometimes, you may not get the exact text as shown above when dictating for the first time. If you do spot mistakes, move the cursor to the mistake, then say, "correct that". A list of suggestions will appear, and listen to the suggestions carefully. Say the number that corresponds to the intended word, then confirm your selection (typically by saying, "OK"). The word will be corrected.
+Sometimes,  the speech-recognition program may make a mistake and recognize what you have said incorrectly. If you do spot mistakes, move the cursor to the mistake, then say, "correct that". A list of suggestions will appear, and listen to the suggestions carefully. Say the number that corresponds to the intended word, then confirm your selection (typically by saying, "OK"). The word will be corrected.
 
 ### Click something
 
@@ -169,7 +172,7 @@ If you need to press a keyboard combination via voice, you can say, "press key c
 
 ### Screen reader commands
 
-You can perform certain screen reader commands with your chosen dictation software. See advanced topics section for details on steps for supported dictation software.
+You can perform certain screen reader commands with your chosen dictation software. See the advanced topics section for details on steps for supported dictation software.
 
 Once the dictation software is prepared, you can say phrases such as, "current time" or "open JAWS menu". See screen reader voice commands section in overview section for commands for each screen reader.
 
@@ -177,11 +180,11 @@ This is just a taste of what DictationBridge, dictation software, and your scree
 
 ## Using DictationBridge
 
-This section provides a deeper overview of DictationBridge features, as well as tips for dictating text such as dictating punctuation and so on.
+This section delves deeper into dictationBridge.
 
 ### Starting and stopping DictationBridge
 
-Because DictationBridge is a script for your screen reader, it will start and stop when you run or quit screen readers, respectivley. For example, if you want to control your computer after you log onto the computer, go to settings area of your screen reader (Settings Center in JAWS, for example) and ask your screen reader to start after you log onto the computer. Also, you need to tell the dictation software to also come up when you log onto the computer. Once you follow these steps and next time you log on, your computer will be ready to listen to you.
+DictationBridge is a script for your screen reader; therefore, it will start or stop when you run or quit your  screen reader, respectivley. For example, if you want to control your computer after you log onto the computer, go to the  settings area of your screen reader (Settings Center in JAWS, for example) and ask your screen reader to start after you log onto the computer. Also, you need to tell the dictation software to also come up when you log onto the computer. Once you follow these steps and next time you log on, your computer will be ready to listen to you.
 
 #### For NVDA users: disabling DictationBridge for a while
 
@@ -189,9 +192,9 @@ If you are using recent versions of NVDA, you can temporarily stop DictationBrid
 
 ### Improving dictation accuracy
 
-As noted in "Tasting DictationBridge" chapter, think of dictation software as your friend. The more you use it, the software will pick up your dictation better.
+It is important to correct misrecognitions and to ensure that the speech-recognition software learns correctly from your corrections. The procedures for doing this very between Windows speech-recognition and Dragon. In general, if an error occurs, do your best to correct it via speech. That is, use speech commands to navigate to the error and then use the speech-recognition program's correction facilities to fix the error. This allows the speech-recognition to track the correction. 
 
-You can also use training dialogs provided by the dictation software to improve dictation accuracy:
+You can also use extra  training features  provided by the dictation software to improve dictation accuracy:
 
 * Windows Speech Recognition: After you go through speech first setup steps, go to speech tutorial and go through additional training.
 * Dragon: you can use training dialogs in Dragon 14 and earlier to practice dictating text and thus allow it to become accustomed to your speaking style. This is done by training a voice profile so Dragon can understand you better. See the next section on how to do this.
@@ -214,7 +217,7 @@ This will bring you to the quality check.  In the quality check Dragon is listen
 
 You can dictate commands and text. You can perform commands such as opening programs ("Start something"), click somewhere ("click someplace"), press a keyboard key ("press Windows key" or "press Alt+F4"), and if configured correctly, perform screen reader commands ("JAWS window" or "current focus").
 
-For text dictation in places such as word processors and alike, speak to your computer. For example, if you say the words, "this is a test", whatever you say will be entered into a document. Be sure to listen to what the screen reader says and correct mistakes if any.
+For text dictation in places such as word processors and the like, speak to your computer. For example, if you say the words, "this is a test", whatever you say will be entered into a document. Be sure to listen to what the screen reader says and correct mistakes if any.
 
 #### Hear what you said
 
@@ -224,7 +227,7 @@ When you dictate text, DictationBridge will ask the screen reader to echo back o
 
 Suppose you want to type the words, "testing, one, two, three". Unless you dictate punctuation, the dictation software will see that you tried to write "testing one two three". In order to insert punctuation, you need to say, "testing comma one comma two comma three" so commas (,) can be entered. Use the screen reader's settings to set how much punctuation your screen reader announces.
 
-Note: in Dragon, a setting is available to guess the puncutation you wanted to enter by keeping watch of how much you pause. If this setting is enabled, you don't have to enter punctuation marks when you dictate text.
+Note: in Dragon, a setting is available to guess the punctuation  you want to enter by keeping watch of how much you pause. If this setting is enabled, you don't have to enter punctuation marks when you dictate text.
 
 Following are common punctuation marks and their dictation equivalents:
 
@@ -240,31 +243,31 @@ See the manual for your dictation software for more information on entering punc
 
 ### Screen reader commands
 
-You can perform various screen reader commands via DictationBridge and dictation software. Provided that you followed steps outlined below, you can use DictationBridge to perform screen reader commands such as reading title bar, web browsing and so on.
+You can use DictationBridge coupled with windows speech-recognition or Dragon  to perform screen reader commands such as reading the window  title, web browsing commands like "next heading" etc.
 
 #### Windows Speech Recognition
 
-To configure Windows Speech Recognition to accept screen reader commands, you need to install WSR Macros utility, prepare the custom macros, and start speaking commands.
+To configure Windows Speech Recognition to accept screen reader commands, you need to install the WSR Macros utility, prepare the custom macros, and start speaking commands.
 
-First, install the WSR Macros utility by visiting [Windows Speech Recognition Macros download page](https://www.microsoft.com/en-us/download/details.aspx?id=13045), then follow the prompts from the web browser (say, pressing Alt+N in Internet Explorer) to open or save, then install the utility. When the installation is finished, a new folder named Speech Macros" will be created in your documents folder. If the folder does not exist, you need to create it manually before proceeding to the next step.
+First, install the WSR Macros utility by visiting the [Windows Speech Recognition Macros download page](https://www.microsoft.com/en-us/download/details.aspx?id=13045), then follow the prompts from the web browser (say, pressing Alt+N in Internet Explorer) to open or save, then install the utility. When the installation is finished, a new folder named Speech Macros" will be created in your documents folder. If the folder does not exist, you need to create it manually before proceeding to the next step.
 
-Next, prepare the macro file. Go to NVDA menu, Tools, DictationBridge, then select an option that invites you to copy the macro file. Say yes when asked to confirm. If successful, a file named "dictationBridge.WSRMac" will be placed in your Documents folder under Speech Macros subfolder.
+Next, prepare the macro file. Go to the NVDA menu, Tools, DictationBridge, then select an option that asks you to copy the macro file. Say yes when asked to confirm. If successful, a file named "dictationBridge.WSRMac" will be placed in your Documents folder under the "Speech Macros" subfolder.
 
-Once the macro file is copied to the right location, you need to sign the newly copied macro file. Go to system tray, locate the macros utility icon, then open context menu, go to Security and select "Sign Speech Macros". If you are asked to create a new cedrtificate, say "yes" to create a fresh new certificate. Then, select the macro file, and answer "yes" when asked to create a certificate if you did not create a certificate before. After a few prompts and answering "yes" at User Account Control (if enabled), the certificate will be created and the macro will be signed. You can then use Windows Speech Recognition to issue screen reader commands.)
+Once the macro file is copied to the right location, you need to sign the newly copied macro file. Go to the system tray, locate the macros utility icon, then open the context menu, go to the option titled "Security" and select "Sign Speech Macros". If you are asked to create a new certificate, say "yes" to create a new certificate. Then, select the macro file, and answer "yes" when asked to create a certificate if you did not create a certificate before. After a few prompts and answering "yes" at a User Account Control prompt (if enabled), the certificate will be created and the macro file will be signed. You can then use Windows Speech Recognition to issue screen reader commands.)
 
 Also, to add custom commands, open the macro file and enter the following exactly as shown:
 
 	<listenFor>what you want the screen reader to do</listenFor>
 
-Once you add custom commands, go through steps above and sign the macro file, this time choosing Sign option from Security menu from Macros utility context menu.
+Once you add custom commands, go through the steps above and sign the macro file once again. You will need to create a new certificate. You will need to create a new certificate each time you modify the dictationBridge macro file.
 
 #### Dragon
 
 To configure Dragon to accept screen reader commands, you need to allow Dragon to find the commands file. This can be done automatically or manually.
 
-For NVDA users, this can be done by going to NVDA menu, Tools, then selecting "Install Dragon commands" item. When asked to confirm, say Yes, then if User Account Control appears, say Yes to continue. Note that you need to restart NVDA before issuing NvDA commands.
+For NVDA users, this can be done by going to the NVDA menu, Tools, then selecting the option titled "Install Dragon commands" item. When asked to confirm, say Yes, then if User Account Control appears, say Yes to continue. Note that you need to restart NVDA before issuing NvDA commands.
 
-For JAWS users, locate the Dragon commands XML file, then copy it to Dragon installation folder (typically sysdrive\Program Files (or Program Files (x86) on 64-bit systems)\Nuance\Dragon).
+For JAWS users, locate the Dragon commands XML file, then copy it to the Dragon installation folder (typically sysdrive\Program Files (or Program Files (x86) on 64-bit systems)\Nuance\Dragon).
 
 #### JAWS dictation commands
 
@@ -364,30 +367,35 @@ Q. How much does DictationBridge cost?
 
 Absolutely free.
 
-Q. Is training dialog for Windows Speech Recognition accessible via speech and/or braille?
+Q. Is the training dialog for Windows Speech Recognition accessible via speech and/or braille?
 
 Yes, you can review the text to be dictated in the training dialog via speech.
 
 Q. How can I check microphone status via Windows Speech Recognition?
 
-Press Windows+B to go to notification area. If Windows Speech Recognition is active, one of the items will be Windows Speech Recognition along with its status (listening, sleeping, off).
+Press Windows+B to go to the notification area. If Windows Speech Recognition is active, one of the items will be Windows Speech Recognition along with its status (listening, sleeping, off).
 
-Q. I don't hear what I dictated.
+Q. I don't hear what I have  dictated.
 
 This might be due to one of the following:
 
 * DictationBridge is not installed.
-* If using NVDA, DictationBridge add-on might be disabled.
+* If using NVDA, the DictationBridge add-on might be disabled.
 * Your microphone might be turned off or muted.
-* For some cases, text echo will not work, and developers are working toward a solution.
+* In certain cases, text echo back will not work, and developers are working toward a solution.
 
 Q. How can I correct spelling mistakes?
 
-To correct spelling mistakes, move the cursor to the misspelled word and say, "correct that". A list of suggestions will appear. Choose the word you intended to say.
+This procedure is dependent on your speech-recognition solution of choice. Please consult its documentation.
 
 Q. How can I improve dictation accuracy?
 
-You can use the training dialog provided by Windows Speech Recognition or Dragon to train the dictation software to listen to how you say phrases. Also, the longer you use dictation, the accuracy increases.
+Accuracy when dictating is a function of a number of things that are too extensive to go into here. In summary, consider the following points.
+*Speak like a news caster.
+* Your speech input to the speech-recognition solution must be clear and noise free.
+*The words you use should be in the speech-recognition solution's vocavulary.
+*You have trained the vocabulary, entering carefully chosen words.
+
 
 Q. I cannot seem to insert punctuations as I dictate.
 
@@ -399,7 +407,7 @@ Say, "new paragraph". See the section, "dictating text instructions" in Overview
 
 Q. I'm a user of Windows 10 and have enabled Cortana. Can Cortana help in dictating text?
 
-Cortana is a personal digital assistant from Microsoft. At this time, Cortana cannot help you with lengthy dictations.
+Cortana is a personal digital assistant from Microsoft. At this time, Cortana cannot help you with lengthy dictation.
 
 Q. Why is it that I cannot perform screen reader commands with Windows Speech Recognition?
 
@@ -436,6 +444,7 @@ The DictationBridge project was made possible thanks to support from a community
 * Project champion and community relations: Chris Hofstader
 * DictationBridge core: Matthew Campbell (3 Mouse Technologies, SeroTech and Microsoft)
 * DictationBridge NVDA add-on: Pranav Lal, Derek Riemer
+* dictationBridge project manager: Pranav Lal
 * DictationBridge JAWS scripts: Austin Hicks, Sean Pharaoh, Tim Burgess
 * Website coordinator: Amanda Rush
 * Documentation: Erin Lauridsen, Sue Martin, Joseph Lee
