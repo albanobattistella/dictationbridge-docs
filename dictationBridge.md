@@ -126,7 +126,7 @@ Once the speech-recognition software is installed, follow the below steps to let
 
 For Windows Speech recognition: For the best experience, set Windows Speech Recognition to sleep rather then turn off when you say, "stop listening" or "go to sleep".
 
-For Dragon: Configure Dragon to display the  Dragon Bar icon on the system tray, enable screen reader  menus and use of the word "click" for clicking and HTML elements, and to use the  spelling box if you need to correct a mistake. Also, it is recommended that you configure a profile. Follow steps in feature overview chapter for details.
+For Dragon: Configure Dragon to display the  Dragon Bar icon on the system tray, enable screen reader  menus and use of the word "click" for clicking and HTML elements, and to use the  spelling box if you need to correct a mistake. Also, it is recommended that you configure a profile. Follow steps in the  feature overview chapter for details.
 
 Congratulations! You are now ready to dictate to your computer using DictationBridge, your screen reader, and a dictation software. If you want to get going with it, be sure to read the quick start guide (the next section). If you want to learn more about some additional features, browse the "DictationBridge Overview" section later in this guide. If you need advanced functionality such as entering custom commands for Dragon, check out "Advanced Topics" section. Have questions about DictationBridge features discussed in this guide? Don't forget to check out "Frequently Asked Questions" section. Let's get going with dictation!
 
@@ -151,7 +151,7 @@ To start a program, say, "start program". For example, to start Notepad, say, "s
 
 ### Dictating text
 
-If you want to dictate text, open a program such as Notepad and start speaking what you want written. For example, say, "start Notepad", then once Notepad opens, say, "Testing comma, one comma, two comma, three". The screen reader should say, "Testing, one, two, three".
+If you want to dictate text, open a program such as Notepad and start speaking what you want written. For example, say, "start Notepad", then once Notepad opens, say, "Testing comma, one comma, two comma, three". The screen reader should say, "Testing, one, two, three". It is important to note that there is no configuration involved in dictationBridge to carry out these steps.
 
 #### Entering punctuation and starting new lines
 
@@ -243,7 +243,7 @@ See the manual for your dictation software for more information on entering punc
 
 ### Screen reader commands
 
-You can use DictationBridge coupled with windows speech-recognition or Dragon  to perform screen reader commands such as reading the window  title, web browsing commands like "next heading" etc.
+You can use DictationBridge coupled with windows speech-recognition or Dragon  to perform screen reader commands such as reading the window  title, web browsing commands like "next heading" etc. It is crucial to remember that the command functionality is independent of the echo back functionality. You do not need to install the commands if you only want echo back.
 
 #### Windows Speech Recognition
 
@@ -267,8 +267,7 @@ To configure Dragon to accept screen reader commands, you need to allow Dragon t
 
 For NVDA users, this can be done by going to the NVDA menu, Tools, then selecting the option titled "Install Dragon commands" item. When asked to confirm, say Yes, then if User Account Control appears, say Yes to continue. Note that you need to restart NVDA before issuing NvDA commands.
 
-For JAWS users, locate the Dragon commands XML file, then copy it to the Dragon installation folder (typically sysdrive\Program Files (or Program Files (x86) on 64-bit systems)\Nuance\Dragon).
-
+For JAWS users, you need to download the command file from the dictationBridge repository. You then import the commands via the dragon command browser.
 #### JAWS dictation commands
 
 Following are JAWS commands available via DictationBridge:
