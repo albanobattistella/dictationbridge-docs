@@ -63,7 +63,7 @@ Before you can dictate and perform commands with help from DictationBridge, you 
 
 To download the latest version of DictationBridge, visit the [DictationBridge website](http://www.dictationbridge.com) and select the download link. Be sure to download the appropriate installer for your screen reader (JAWS or NVDA). After downloading the appropriate installer for your screen reader, follow the installation instructions for the screen reader of your choice.
 
-For JAWS for Windows:
+#### For JAWS for Windows:
 
 1. Navigate to where you have saved the DictationBridge installer and press ENTER on the installer.
 2. Choose the installer language and press ENTER on the button titled "OK".
@@ -74,14 +74,14 @@ For JAWS for Windows:
 7. Review the choices you have  made so far during the installation, then press ENTER on the Install button.
 8. After a few moments, the installation will complete, at which point you can press ENTER on the Finish button. Be sure to restart JAWS.
 
-For NvDA installed on your computer:
+#### For NvDA installed on your computer:
 
 1. Navigate to where you have saved the DictationBridge installer (an NVDA add-on with a .nvda-addon extension) and press ENTER on the installer.
 2. Say "yes" if NVDA asks if you would like to install the add-on.
 3. If you are upgrading from a prior version of DictationBridge, NVDA will ask if you would like to upgrade. Say "yes".
 4. After a few moments NVDA will ask you to restart. Select "yes" to restart NVDA.
 
-For a portable version of NVDA:
+#### For a portable version of NVDA:
 
 1. Press NVDA+N to open the NVDA menu. By default, the NVDA key is the numpad or extended insert key.
 2. Select Tools, then Manage Add-ons.
@@ -96,7 +96,7 @@ Once installed, a new menu item under NVDA menu/Tools will be added that is used
 
 DictationBridge supports Windows Speech Recognition and Dragon (formerly called Dragon Naturally Speaking).
 
-Follow these steps to enable Windows Speech Recognition (WSR):
+Follow these steps to enable Windows Speech Recognition with WSR:
 
 1. Press Windows key to \open the  Start menu (Start screen in Windows 8 and 8.1).
 2. Enter "speech recognition", and select "Windows Speech Recognition" from the dsearch results and press ENTER. The setup window opens.
